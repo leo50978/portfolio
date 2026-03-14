@@ -1,5 +1,5 @@
-const desktopHeroPath = new URL("../assets/herodesktop.png", import.meta.url).href;
-const mobileHeroPath = new URL("../assets/heromobile.png", import.meta.url).href;
+const desktopHeroPath = new URL("./herodesktop.png", import.meta.url).href;
+const mobileHeroPath = new URL("./heromobile.png", import.meta.url).href;
 
 const HERO_WORDS = ["dev web", "designer", "gen art", "creative code"];
 const HERO_SKILLS = [

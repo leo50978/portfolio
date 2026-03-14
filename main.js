@@ -1,5 +1,5 @@
-import { SceneIntro, initSceneIntroAnimation } from "./components/sceneIntro.js";
-import { initHeroSectionAnimation } from "./components/heroSection.js";
+import { SceneIntro, initSceneIntroAnimation } from "./sceneIntro.js";
+import { initHeroSectionAnimation } from "./heroSection.js";
 
 const app = document.querySelector("#app");
 

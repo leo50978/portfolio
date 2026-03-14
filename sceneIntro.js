@@ -1,9 +1,9 @@
 import { HeroSection } from "./heroSection.js";
 
-const introVideoPath = new URL("../assets/introdesktop.MP4", import.meta.url).href;
-const introMobileVideoPath = new URL("../assets/videomobile.mp4", import.meta.url).href;
-const galaxyVideoPath = new URL("../assets/galaxy.mp4", import.meta.url).href;
-const endingVideoPath = new URL("../assets/fin.mp4", import.meta.url).href;
+const introVideoPath = new URL("./introdesktop.MP4", import.meta.url).href;
+const introMobileVideoPath = new URL("./videomobile.mp4", import.meta.url).href;
+const galaxyVideoPath = new URL("./galaxy.mp4", import.meta.url).href;
+const endingVideoPath = new URL("./fin.mp4", import.meta.url).href;
 
 const PROFILE_PARAGRAPHS = [
   {
